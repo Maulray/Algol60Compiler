@@ -1,0 +1,7 @@
+1- faire une classe main qui permet le parcourt de l'arbre et qui l'affiche (vérifier qu'on a bien le bon nom des noeuds)
+2- faire une classe symbole (se mettre d'accord sur ce qu'elle doit contenir)
+	> je pense perso que la classe symbole doit être abstraite et implémentée par des sous classes fonction, variable etc qui contiendront les info noms, nombre des paramètre etc...
+3- faire une classe tds (se mettre d'accord sur ce qu'elle contient aussi)
+4- paralléliser le travail en se répartissant le travail
+5- se réunir pour trouver des tests sémantiques (au moins 5 par personne et les implemémenter en parallèle)
+	> cette partie doit ressembler à un switch géant avec un case par noeud 

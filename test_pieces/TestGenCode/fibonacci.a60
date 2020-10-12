@@ -1,0 +1,20 @@
+begin
+		integer x;
+		integer procedure fibonacci(n);
+        integer n;
+        begin
+            integer temp1,temp2,i;
+            temp1 := 1;
+            temp2 := 1;
+            for i:=3 step 1 until n do
+            begin
+                fibonacci := temp1 + temp2;
+                temp1 := temp2;
+                temp2 := fibonacci
+            end
+        end;
+        x := 12;
+        outinteger(1,x);
+        x := fibonacci(x);
+        outinteger(1,x)
+end

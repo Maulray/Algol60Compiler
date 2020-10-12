@@ -1,0 +1,16 @@
+begin
+		integer x,a;
+		integer procedure puissance(n,m);
+        integer n,m;
+        begin
+            integer i;
+            puissance := 1;
+            for i:=1 step 1 until m do puissance:=puissance*n
+        end;
+		x := 5;
+		a := 3;
+		outinteger(1,x);
+		outinteger(1,a);
+		x := puissance(x,a);
+		outinteger(1,x)
+end

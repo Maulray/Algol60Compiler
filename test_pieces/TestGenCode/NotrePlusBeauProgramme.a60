@@ -1,0 +1,23 @@
+begin
+		integer x;
+    integer procedure OddNumbers(n);
+    integer n;
+    begin
+      integer i,div,mult,compteur;
+      compteur := 0;
+      for i:=1 step 1 until n do
+      begin
+        div := i/2;
+        mult := 2*div ;
+        if i-mult<>0 then
+        begin
+          compteur := compteur+1;
+          outinteger(1, i)
+        end
+      end;
+      OddNumbers := compteur
+    end;
+    x := 15;
+    x := OddNumbers(x);
+    outinteger(1, x)
+end

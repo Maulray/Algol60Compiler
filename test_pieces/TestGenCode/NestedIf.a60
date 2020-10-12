@@ -1,0 +1,12 @@
+begin
+		integer x,a;
+		x := 5;
+		a := 3;
+		if x>a then
+		begin
+		    if x+a = 10 then x := a else a := x
+		end
+		else x:=x*a;
+		outinteger(1,x);
+		outinteger(1,a)
+end

@@ -1,0 +1,14 @@
+begin
+		integer x;
+		integer procedure fact(n);
+        integer n;
+        begin
+            integer i;
+            fact := 1;
+            for i:=1 step 1 until n do fact:=fact*i
+        end;
+		x := 5;
+		outinteger(1,x);
+		x := fact(x);
+		outinteger(1,x)
+end
