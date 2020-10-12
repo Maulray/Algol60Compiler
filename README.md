@@ -1,4 +1,5 @@
-Niveau 2
+# Développement d'un compilateur pour le langage Algol60
+> Explication de la partie test finale du projet, dans laquelle nous devions proposer 4 à 5 programmes que notre compilateur pouvait faire tourner. 
 
 Consignes d'utilisation :
 
